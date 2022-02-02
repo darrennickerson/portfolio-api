@@ -2,7 +2,7 @@ import { Column, Entity } from 'typeorm';
 import { AbstractEntity } from './abstract.entity';
 
 @Entity('post')
-export class Post extends AbstractEntity {
+export class PostEntity extends AbstractEntity {
   @Column()
   title: string;
 
